@@ -65,12 +65,15 @@
     <Compile Include="AbstractFactoryPattern.cs" />
     <Compile Include="AdpatorDesignPattern.cs" />
     <Compile Include="BridgeDesignPattern.cs" />
+    <Compile Include="CandiDistribution.cs" />
     <Compile Include="CompositeDesignPattern.cs" />
     <Compile Include="DecoratorDesginPattern.cs" />
     <Compile Include="Decoupling .cs" />
     <Compile Include="EncryptionAndDecryption.cs" />
     <Compile Include="FactoryPattern.cs" />
+    <Compile Include="LfetOuterJoinLINQ.cs" />
     <Compile Include="MementoDesignPattern.cs" />
+    <Compile Include="MultipleInterfaces.cs" />
     <Compile Include="ObserverDesignPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

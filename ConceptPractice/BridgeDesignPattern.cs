@@ -3,7 +3,9 @@
 namespace ConceptPractice
 {
     /// <summary> AUthor : VRT, 01/05/2019
-    /// As the name suggests, it makes a bridge between two components. Here the component may be two classes or any other entity. So the Bridge Design Pattern basically makes a channel between two components. And in this way it helps to create a de-couple architecture. We can communicate with two classes through the bridge component without changing existing class definitions.
+    /// As the name suggests, it makes a bridge between two components. Here the component may be two classes or any other entity. 
+    /// So the Bridge Design Pattern basically makes a channel between two components. And in this way it helps to create a de-couple 
+    /// architecture. We can communicate with two classes through the bridge component without changing existing class definitions.
     /// </summary>
     class BridgeDesignPattern
     {

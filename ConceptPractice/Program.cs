@@ -14,16 +14,20 @@ namespace ConceptPractice
        
         static void Main(string[] args)
         {
+            int[,,] x = new int[3, 2, 3];
+            int lnt = x.Length;
+            int [] arr= CandiDistribution.GetCandies(10, 3);
+
             var val = EncryptionAndDecryption.DecodeForUrlBase64("AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+GktGuR4p0arlf40oTnNhwQAAAACAAAAAAADZgAAwAAAABAAAACpeQYnT315WQUWCw6PXFegAAAAAASAAACgAAAAEAAAANXds2Uri6Y+KwmvAnvfPQOoAQAAPXUm2qUP0k5Nm0sdyzBOE++oybdfRV6DcFtixkRf7ITmjrk/UBkKeBamBmkgav0B3rPZm66hEXaNKiAiYB4zNwBm5xG2+YPwdMMASzcPAJZzKs+01W4CQnfAMq7NZE9m1KKx9QHQHAdwAptydyHR3QWdVAdgvuf3XaMpeAd1DSlJVdlbm44OYTyuPcpOcaSBDe4GFYMhk2uwNGtKbgf2XfvLRurekXupo9XRCJOm3rk/8481WsX0wfI3DLKiLKJcxIS8rKGmpUzHWRqStjazuDtI5hLtMFKYDxhU+v/UtrGshCqyhgIRxXWfrrKNAM8AinaO+oWw2ys8OS+5hmEsO3Pe2w2+6cH2p5Rd7lo6CPhw93Th/omasnGnmqRrUAYhvpXIVZMDTor0VF2NdeMDVquM5KmYeGDRwrmGW+x8H4Udd2T/uJ9J4DvgsIWHfQcJJXDELoSE7W7iOeeDRGdb00qBLVWpYRbYjNjhPwCwsGlH+b8b5gTX4xpCY3cxBzhu+Q74/UnNWbGz4/PR7mUkl4RbVOpChQq9EW70z+tpKirn7f62/kyaORQAAABFdtrUTfovVywJsVEBlcaqOq0kUw==");
 
             #region  "Exploring The Singulton Design Pattern ==>"
             Console.WriteLine("********** Exploring The Singulton Pattern *******************************");
             //If we now call Singleton class from the client class as:
-            SingultonPattern.Instace.printSingleton();
-            SingultonPattern.Instace.printSingleton();
-            SingultonPattern.getSingletonInstance().printSingleton();
-            SingultonPattern.getSingletonInstance().printSingleton();
-            SingultonPattern.getSingletonInstance().printSingleton();
+            SingultonPattern.Instace.PrintSingleton();
+            SingultonPattern.Instace.PrintSingleton();
+            SingultonPattern.GetSingletonInstance().PrintSingleton();
+            SingultonPattern.GetSingletonInstance().PrintSingleton();
+            SingultonPattern.GetSingletonInstance().PrintSingleton();
             // Console.ReadLine();
             #endregion
 
@@ -31,13 +35,13 @@ namespace ConceptPractice
             Console.WriteLine("********************** Exploring The Factory Pattern ***********************");
             //Step 4-: Use the Factory to get object of concrete class by passing an information such as type.
             ShapeFactory shapeFactory = new ShapeFactory();
-            Ishape reactangle = shapeFactory.GetShape("Reactangle");
+            IShape reactangle = shapeFactory.GetShape("Reactangle");
             reactangle.Draw();
 
-            Ishape circle = shapeFactory.GetShape("Circle");
+            IShape circle = shapeFactory.GetShape("Circle");
             circle.Draw();
 
-            Ishape square = shapeFactory.GetShape("Square");
+            IShape square = shapeFactory.GetShape("Square");
             square.Draw();
             #endregion
 

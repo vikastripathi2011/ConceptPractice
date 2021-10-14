@@ -31,7 +31,7 @@ namespace ConceptPractice
         }
 
         //Implementation Example: Lazy initialization
-        public static SingultonPattern getSingletonInstance()
+        public static SingultonPattern GetSingletonInstance()
         {
             if (null == obj)
             {
@@ -42,7 +42,7 @@ namespace ConceptPractice
             return obj;
         }
 
-        public void printSingleton()
+        public void PrintSingleton()
         {
             Console.WriteLine("Inside print Singleton");
             Console.ReadLine();

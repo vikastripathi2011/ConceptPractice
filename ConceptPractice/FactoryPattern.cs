@@ -11,27 +11,27 @@ namespace ConceptPractice
     }
 
     //Step 1-:    Create an interface.
-    public interface Ishape
+    public interface IShape
     {
         void Draw();
     }
    
     //Step 2-:    Create concrete classes implementing the same interface.
-    public class Reacatangle : Ishape
+    public class Reacatangle : IShape
     {
         public void Draw()
         {
             Console.WriteLine("Inside Rectangle::draw() method.");
         }
     }
-    public class Circle : Ishape
+    public class Circle : IShape
     {
         public void Draw()
         {
             Console.WriteLine("Inside Circle::draw() method.");
         }
     }
-    public class Square : Ishape
+    public class Square : IShape
     {
         public void Draw()
         {
@@ -44,7 +44,7 @@ namespace ConceptPractice
     public class ShapeFactory
     {
         ////use getShape method to get object of type shape 
-        public Ishape GetShape(string shapeType)
+        public IShape GetShape(string shapeType)
         {
             switch (shapeType)
             {

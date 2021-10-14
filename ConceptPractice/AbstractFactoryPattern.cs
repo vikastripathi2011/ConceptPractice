@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace ConceptPractice
 {
     /// <summary> AUthor : VRT, 01/05/2019
-    /// An abstract factory pattern acts as a super-factory that creates other factories. An abstract factory interface is responsible for creating a set of related objects or dependent objects without specifying their concrete classes.
+    /// An abstract factory pattern acts as a super-factory that creates other factories. An abstract factory interface is responsible for 
+    /// creating a set of related objects or dependent objects without specifying their concrete classes.
     /// </summary>
     class AbstractFactoryPattern
     {

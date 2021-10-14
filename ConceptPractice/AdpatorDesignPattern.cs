@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 namespace ConceptPractice
 {
     /// <summary>
-    /// Basically the Adaptor Design Pattern is relevant when two different classes talk with each other. Sometimes a situation may occur like that, you cannot change anything in an existing class and at the same time another class wants to talk with the existing class. In that situation we can implement a middle-level class called an adaptor class and by using the adaptor class both classes are able to talk with each other.
+    /// Basically the Adaptor Design Pattern is relevant when two different classes talk with each other. 
+    /// Sometimes a situation may occur like that, you cannot change anything in an existing class and at the same time another class 
+    /// wants to talk with the existing class. In that situation we can implement a middle-level class called an adaptor class and 
+    /// by using the adaptor class both classes are able to talk with each other.
     /// </summary>
     class AdpatorDesignPattern
     {
