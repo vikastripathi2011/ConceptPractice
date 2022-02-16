@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace ConceptPractice
 {
     /// <summary>
-    /// If there is a need to produce one object with many features but not all the features are needed all the time then the Decorator Design Pattern is useful.
+    /// If there is a need to produce one object with many features but not all the features are needed all the time then the Decorator 
+    /// Design Pattern is useful.
     /// </summary>
     class DecoratorDesginPattern
     {

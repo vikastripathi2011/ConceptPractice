@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace ConceptPractice
 {
     /// <summary> Author : VRT, 01/05/2019
-    /// As the name suggests, prototype means making a copy of something that exists. when we need to create the same object again and again then we will implement a Prototype Design Pattern
+    /// As the name suggests, prototype means making a copy of something that exists. when we need to create the same object again and again 
+    /// then we will implement a Prototype Design Pattern
     /// </summary>
     class PrototypeDesignPattern
     {

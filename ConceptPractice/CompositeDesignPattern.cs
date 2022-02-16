@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace ConceptPractice
 {
     /// <summary>
-    /// The Composite Design Pattern always forms a tree structure with the objects, where each root element contains sub nodes called child nodes and child nodes contain leaf nodes (last label node). Leaf nodes do not contain any elements. Now, in this object hierarchy we can point any node and from this node we can traverse all other nodes.
+    /// The Composite Design Pattern always forms a tree structure with the objects, where each root element contains sub nodes called child nodes and 
+    /// child nodes contain leaf nodes (last label node). Leaf nodes do not contain any elements. Now, in this object hierarchy we can point any node 
+    /// and from this node we can traverse all other nodes.
     /// </summary>Why composite pattern?
     /// The Composite Design Pattern is useful when individual objects as well as a group of those kinds of objects are treated uniformly.
     class CompositeDesignPattern
